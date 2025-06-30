@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { createRoomApi, joinChatApi } from "../services/RoomService";
 import useChatContext from "../context/ChatContext";
 import { useNavigate } from "react-router";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./ThemeToggle"; 
 
 const JoinCreateChat = () => {
   const [detail, setDetail] = useState({
